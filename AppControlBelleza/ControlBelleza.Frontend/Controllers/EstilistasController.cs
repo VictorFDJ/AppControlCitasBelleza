@@ -86,7 +86,7 @@ namespace ControlBelleza.Frontend.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre,Apellido,Gmail,Telefono")] Estilista estilista)
+        public async Task<IActionResult> Edit(int id,Estilista estilista)
         {
             if (id != estilista.Id)
             {

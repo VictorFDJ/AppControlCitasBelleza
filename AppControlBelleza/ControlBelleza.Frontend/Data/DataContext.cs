@@ -14,6 +14,7 @@ namespace ControlBelleza.Frontend.Data
         {
         }
 
-        public DbSet<ControlBelleza.Frontend.Models.Estilista> Estilista { get; set; } = default!;
+        public DbSet<Estilista> Estilista { get; set; }
+        //ControlBelleza.Frontend.Models.
     }
 }
