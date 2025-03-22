@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ControlBelleza.Frontend.Models
 {
-    public class CitasModel
+    public class Citas
     {
         public int Id { get; set; }
 
@@ -12,7 +12,7 @@ namespace ControlBelleza.Frontend.Models
         public DateTime FechaCita { get; set; }
         public int ClienteId { get; set; }
 
-        
+        public Cliente Cliente { get; set; }
     }
 }
 
