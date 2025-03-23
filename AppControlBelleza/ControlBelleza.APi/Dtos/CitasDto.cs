@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ControlBelleza.Frontend.Models
 {
-    public class CitasModel
+    public class CitasDto
     {
         public int Id { get; set; }
 

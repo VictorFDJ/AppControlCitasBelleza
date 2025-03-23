@@ -1,6 +1,6 @@
 ﻿namespace ControlBelleza.Domain.Entities
 {
-    public class Cliente
+    public class ClienteDto
     {
         public int Id { get; set; }
         public string Name { get; set; }

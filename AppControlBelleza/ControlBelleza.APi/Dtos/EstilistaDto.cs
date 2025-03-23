@@ -4,7 +4,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ControlBelleza.Domain.Entities
 {
-    public class Estilista
+    public class EstilistaDto
     {
         public int Id { get; set; }
         [StringLength(50)]

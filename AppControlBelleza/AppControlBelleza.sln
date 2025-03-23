@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlBelleza.Persitence",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlBelleza.Domain", "ControlBelleza.Domain\ControlBelleza.Domain.csproj", "{09D29DB2-EE17-4366-BBA4-DC92F32A71BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlBelleza.Aplication", "ControlBelleza.Aplication\ControlBelleza.Aplication.csproj", "{A48C36F7-ADF8-4FC1-9201-B8D42956B029}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{09D29DB2-EE17-4366-BBA4-DC92F32A71BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09D29DB2-EE17-4366-BBA4-DC92F32A71BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09D29DB2-EE17-4366-BBA4-DC92F32A71BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48C36F7-ADF8-4FC1-9201-B8D42956B029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48C36F7-ADF8-4FC1-9201-B8D42956B029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48C36F7-ADF8-4FC1-9201-B8D42956B029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48C36F7-ADF8-4FC1-9201-B8D42956B029}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
