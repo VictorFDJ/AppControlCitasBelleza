@@ -65,7 +65,7 @@ namespace ControlBelleza.Frontend.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(CitasModel model)
+        public async Task<IActionResult> Create(CitasViewModel model)
         {
             if (ModelState.IsValid)
             {
