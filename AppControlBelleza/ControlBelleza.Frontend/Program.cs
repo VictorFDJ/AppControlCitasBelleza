@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ControlBelleza.ControlBelleza.Persitence;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using ControlBelleza.Frontend.Data;
+//using ControlBelleza.Frontend.Data;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("StrDataContext") ?? throw new InvalidOperationException("Connection string 'DataContext' not found.")));
