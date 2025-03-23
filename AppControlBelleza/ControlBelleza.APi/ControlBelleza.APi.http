@@ -1,0 +1,6 @@
+@ControlBelleza.APi_HostAddress = http://localhost:5119
+
+GET {{ControlBelleza.APi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
