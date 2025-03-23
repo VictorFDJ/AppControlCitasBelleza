@@ -1,4 +1,4 @@
-﻿namespace ControlBelleza.Frontend.Models
+﻿namespace ControlBelleza.Domain.Entities
 {
     public class Cliente
     {

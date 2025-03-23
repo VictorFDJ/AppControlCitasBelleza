@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using ControlBelleza.Frontend.Models;
+using ControlBelleza.ControlBelleza.Persitence;
+using ControlBelleza.Domain.Entities;
 
-namespace ControlBelleza.Frontend.Data
+namespace ControlBelleza.ControlBelleza.Persitence
 {
     public class DataContext : DbContext
     {

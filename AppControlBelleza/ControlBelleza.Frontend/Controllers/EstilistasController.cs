@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using ControlBelleza.Frontend.Data;
 using ControlBelleza.Frontend.Models;
+using ControlBelleza.ControlBelleza.Persitence;
 
 namespace ControlBelleza.Frontend.Controllers
 {

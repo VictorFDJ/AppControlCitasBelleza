@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ControlBelleza.Frontend.Models;
 using ControlBelleza.ControlBelleza.Persitence;
+using ControlBelleza.Domain.Entities;
 
 
 namespace ControlBelleza.Frontend.Controllers

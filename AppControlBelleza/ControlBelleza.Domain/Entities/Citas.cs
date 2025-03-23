@@ -1,7 +1,7 @@
-﻿using ControlBelleza.Frontend.Models;
+﻿//using ControlBelleza.Frontend.Models;
 using System.ComponentModel.DataAnnotations;
 
-namespace ControlBelleza.Frontend.Models
+namespace ControlBelleza.Domain.Entities
 {
     public class Citas
     {

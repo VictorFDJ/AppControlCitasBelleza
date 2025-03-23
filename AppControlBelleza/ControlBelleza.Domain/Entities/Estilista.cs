@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Http.HttpResults;
+﻿//using Microsoft.AspNetCore.Http.HttpResults;
 using System.ComponentModel.DataAnnotations;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace ControlBelleza.Frontend.Models
+namespace ControlBelleza.Domain.Entities
 {
     public class Estilista
     {
