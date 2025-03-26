@@ -8,5 +8,6 @@ namespace ControlBelleza.Persitence.Repositories
 {
     class EstilistaRepository
     {
+
     }
 }
