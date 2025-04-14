@@ -1,6 +1,80 @@
-﻿@{
+﻿@* @{
     ViewData["Title"] = "Privacy Policy";
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<p>Use this page to detail your site's privacy policy.</p> *@
+@{
+    ViewData["Title"] = "Estilos de Cortes";
+}
+
+<div class="container">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold text-gradient">@ViewData["Title"]</h1>
+        <p class="lead">Descubre las últimas tendencias en cortes de cabello</p>
+    </div>
+
+    <!-- Galería de estilos -->
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="https://www.beautymarket.es/imagen/min26043.jpg" class="card-img-top" alt="Corte moderno" style="height: 250px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Corte Degradé Moderno</h5>
+                    <p class="card-text">Ideal para quienes buscan un look fresco y juvenil con un degradé perfectamente difuminado.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="https://tahecosmetics.com/trends/wp-content/uploads/2025/01/mejores-cortes-pelo-hombre.webp" class="card-img-top" alt="Corte clásico" style="height: 250px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Undercut con Diseño</h5>
+                    <p class="card-text">Para los más atrevidos, combinamos el clásico undercut con diseños personalizados.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqy_qnzDuF5PVawSavzoEn-8ikuwmOeVvs1A&s" class="card-img-top" alt="Corte elegante" style="height: 250px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Corte Pompadour</h5>
+                    <p class="card-text">Elegancia retro con volumen en la parte superior y lados bien definidos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="card border-0 bg-light">
+                <div class="card-body text-center py-4">
+                    <h3 class="card-title">¿Listo para tu nuevo look?</h3>
+                    <p class="card-text">Agenda una cita con nuestros estilistas profesionales</p>
+                    <a asp-controller="Citas" asp-action="Index" class="btn btn-primary btn-lg">
+                        <i class="bi bi-calendar-check"></i> Agendar Cita
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .text-gradient {
+        background: linear-gradient(to right, #d63384, #6f42c1);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .card {
+        transition: transform 0.3s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+</style>

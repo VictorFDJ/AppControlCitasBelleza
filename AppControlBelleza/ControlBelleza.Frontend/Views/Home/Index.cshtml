@@ -1,8 +1,263 @@
-﻿@{
+﻿@* @{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+ *@
+@* @{
+    ViewData["Title"] = "Inicio - Barbería Elegance";
+}
+
+<div class="container-fluid p-0">
+    <!-- Hero Section -->
+    <div class="position-relative text-white text-center" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/api/placeholder/1200/600') center/cover no-repeat; height: 60vh;">
+        <div class="position-absolute top-50 start-50 translate-middle w-100 px-4">
+            <h1 class="display-3 fw-bold mb-4">BARBERÍA ELEGANCE</h1>
+            <p class="lead fs-4 mb-5">Servicio premium para caballeros exigentes</p>
+            <button class="btn btn-lg btn-danger me-3">Reservar Cita</button>
+            <button class="btn btn-lg btn-outline-light">Servicios</button>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">NUESTROS SERVICIOS</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="text-center p-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-danger mb-3">
+                                <path d="M7 21h10" />
+                                <path d="M12 21v-4" />
+                                <path d="M3 7l2 2" />
+                                <path d="M19 7l-2 2" />
+                                <rect x="7" y="3" width="10" height="4" rx="2" />
+                                <path d="M7 7h10" />
+                            </svg>
+                            <h3 class="h5 fw-bold">Corte de Cabello</h3>
+                            <p class="text-muted">Cortes modernos y clásicos adaptados a tu estilo personal.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="text-center p-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-danger mb-3">
+                                <path d="M8.5 2a6.5 6.5 0 0 1 6.5 6.5c0 4-3.5 6-7 10-3.5-4-7-6-7-10A6.5 6.5 0 0 1 8.5 2Z" />
+                            </svg>
+                            <h3 class="h5 fw-bold">Arreglo de Barba</h3>
+                            <p class="text-muted">Perfilado y mantenimiento profesional para lucir impecable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="text-center p-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-danger mb-3">
+                                <path d="M5 15a7 7 0 1 0 14 0" />
+                                <path d="M5 15v-5h14v5" />
+                                <path d="M9 6a3 3 0 0 1 6 0v5H9V6Z" />
+                            </svg>
+                            <h3 class="h5 fw-bold">Tratamientos Faciales</h3>
+                            <p class="text-muted">Exfoliación, mascarillas y masaje para revitalizar tu piel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <img src="/api/placeholder/600/400" alt="Nuestra barbería" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="fw-bold mb-4">EXPERIENCIA PREMIUM</h2>
+                <p class="lead mb-4">En Barbería Elegance ofrecemos más que un simple corte de cabello. Nuestros maestros barberos combinan técnicas tradicionales con tendencias modernas para brindarte una experiencia única.</p>
+                <p class="mb-4">Disfruta de un ambiente exclusivo mientras te relajas con una bebida de cortesía y atención personalizada.</p>
+                <a href="#" class="btn btn-dark">Conoce nuestra historia</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">LO QUE DICEN NUESTROS CLIENTES</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="p-4 rounded bg-dark border border-secondary">
+                        <p class="fst-italic mb-3">"El mejor servicio de barbería que he encontrado. Profesionales que saben exactamente lo que necesitas."</p>
+                        <div class="d-flex align-items-center">
+                            <div class="rounded-circle bg-secondary" style="width: 50px; height: 50px;"></div>
+                            <div class="ms-3">
+                                <h5 class="mb-0">Carlos Rodríguez</h5>
+                                <small class="text-muted">Cliente desde 2022</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="p-4 rounded bg-dark border border-secondary">
+                        <p class="fst-italic mb-3">"Ambiente agradable y resultados impecables. Mi barba nunca había lucido tan bien."</p>
+                        <div class="d-flex align-items-center">
+                            <div class="rounded-circle bg-secondary" style="width: 50px; height: 50px;"></div>
+                            <div class="ms-3">
+                                <h5 class="mb-0">Miguel Ángel</h5>
+                                <small class="text-muted">Cliente desde 2023</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="p-4 rounded bg-dark border border-secondary">
+                        <p class="fst-italic mb-3">"Atención personalizada y profesional. Siempre salgo satisfecho y con la confianza por las nubes."</p>
+                        <div class="d-flex align-items-center">
+                            <div class="rounded-circle bg-secondary" style="width: 50px; height: 50px;"></div>
+                            <div class="ms-3">
+                                <h5 class="mb-0">Alejandro Vega</h5>
+                                <small class="text-muted">Cliente desde 2021</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="container-fluid py-5" style="background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('/api/placeholder/1200/400') center/cover no-repeat;">
+        <div class="container text-center text-white">
+            <h2 class="display-5 fw-bold mb-4">LUCE TU MEJOR VERSIÓN</h2>
+            <p class="lead mb-4">Agenda tu cita hoy mismo y descubre la diferencia de un servicio premium</p>
+            <button class="btn btn-lg btn-danger">RESERVAR AHORA</button>
+        </div>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-4 mb-4 mb-md-0 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-danger mb-3">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <h4>Llámanos</h4>
+                <p class="text-muted">+1 (234) 567-8900</p>
+            </div>
+            <div class="col-md-4 mb-4 mb-md-0 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-danger mb-3">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <h4>Email</h4>
+                <p class="text-muted">info@barberiaelegance.com</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-danger mb-3">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <h4>Ubicación</h4>
+                <p class="text-muted">Av. Principal 123, Ciudad</p>
+            </div>
+        </div>
+    </div>
+</div> *@
+
+@{
+    ViewData["Title"] = "Inicio - Tu Lugar favorito";
+}
+
+<div class="container-fluid p-0">
+    <!-- Hero Section -->
+    <div class="position-relative text-white text-center" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/api/placeholder/1200/600') center/cover no-repeat; height: 50vh;">
+        <div class="position-absolute top-50 start-50 translate-middle w-100 px-4">
+            <h1 class="display-3 fw-bold mb-4">LA MEJOR BARBERÍA</h1>
+            <p class="lead fs-4">Calidad y estilo para caballeros</p>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">NUESTROS SERVICIOS</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="text-center p-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-danger mb-3">
+                                <path d="M7 21h10" />
+                                <path d="M12 21v-4" />
+                                <path d="M3 7l2 2" />
+                                <path d="M19 7l-2 2" />
+                                <rect x="7" y="3" width="10" height="4" rx="2" />
+                                <path d="M7 7h10" />
+                            </svg>
+                            <h3 class="h5 fw-bold">Corte de Cabello</h3>
+                            <p class="text-muted">Cortes modernos y clásicos adaptados a tu estilo personal.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="text-center p-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-danger mb-3">
+                                <path d="M8.5 2a6.5 6.5 0 0 1 6.5 6.5c0 4-3.5 6-7 10-3.5-4-7-6-7-10A6.5 6.5 0 0 1 8.5 2Z" />
+                            </svg>
+                            <h3 class="h5 fw-bold">Arreglo de Barba</h3>
+                            <p class="text-muted">Perfilado y mantenimiento profesional para lucir impecable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="text-center p-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-danger mb-3">
+                                <path d="M5 15a7 7 0 1 0 14 0" />
+                                <path d="M5 15v-5h14v5" />
+                                <path d="M9 6a3 3 0 0 1 6 0v5H9V6Z" />
+                            </svg>
+                            <h3 class="h5 fw-bold">Tratamientos Faciales</h3>
+                            <p class="text-muted">Exfoliación, mascarillas y masaje para revitalizar tu piel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-4 mb-4 mb-md-0 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-danger mb-3">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <h4>Llámanos</h4>
+                <p class="text-muted">849-884-1590</p>
+            </div>
+            <div class="col-md-4 mb-4 mb-md-0 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-danger mb-3">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <h4>Email</h4>
+                <p class="text-muted">VictorFernandez@gmail.com</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-danger mb-3">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <h4>Ubicación</h4>
+                <p class="text-muted">Itla Villa mella</p>
+            </div>
+        </div>
+    </div>
 </div>
