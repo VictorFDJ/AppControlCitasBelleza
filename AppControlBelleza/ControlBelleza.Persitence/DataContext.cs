@@ -16,7 +16,6 @@ namespace ControlBelleza.ControlBelleza.Persitence
         }
 
         public DbSet<Estilista> Estilista { get; set; }
-        //ControlBelleza.Frontend.Models.
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Citas> Citas { get; set; }
     }

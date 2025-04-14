@@ -1,4 +1,4 @@
-﻿//using ControlBelleza.Frontend.Models;
+﻿
 using System.ComponentModel.DataAnnotations;
 
 namespace ControlBelleza.Domain.Entities
