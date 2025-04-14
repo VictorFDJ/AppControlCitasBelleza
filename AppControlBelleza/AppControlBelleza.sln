@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlBelleza.infrastructu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{408882F1-A643-47A6-8572-F944C1FA8AFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlBelleza.Common", "ControlBelleza.Common\ControlBelleza.Common.csproj", "{BF2DCE90-EE29-4E1D-ABE9-3F0E0507D523}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{45D0960C-A016-46E0-989E-BCF17D34CF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45D0960C-A016-46E0-989E-BCF17D34CF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45D0960C-A016-46E0-989E-BCF17D34CF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2DCE90-EE29-4E1D-ABE9-3F0E0507D523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2DCE90-EE29-4E1D-ABE9-3F0E0507D523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2DCE90-EE29-4E1D-ABE9-3F0E0507D523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2DCE90-EE29-4E1D-ABE9-3F0E0507D523}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
