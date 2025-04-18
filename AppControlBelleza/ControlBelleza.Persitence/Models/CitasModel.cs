@@ -1,12 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace ControlBelleza.Persitence.Models
 {
-    class CitasModel
+    public class CitasModel
     {
+        public int Id { get; set; }
+
+        [Required(ErrorMessage = "La fecha de la cita es obligatoria.")]
+        [DataType(DataType.Date)]
+        public DateTime FechaCita { get; set; }
+
+        public int ClienteId { get; set; }
+        
     }
 }
+
