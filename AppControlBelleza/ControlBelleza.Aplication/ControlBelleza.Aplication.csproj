@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Data" Version="24.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ControlBelleza.Domain\ControlBelleza.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
